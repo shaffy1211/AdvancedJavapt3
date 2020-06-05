@@ -15,6 +15,8 @@ public class Project {
 		//polymorphism allow to "program in general" rather than "program in the specific"
 		//enables you to write programs that process objects that share the same superclass as if they were all objects of the same superclass==> simplifies programming
 		//when superclass calls a variable from subclass, the method invoked will be from the subclass i .e downcasting
+		SalariedEmployee newEmployee = new SalariedEmployee("Jane", "Dorsey", "211231", 1500.00);
+		System.out.println(newEmployee.toString());
 	}
 
 }

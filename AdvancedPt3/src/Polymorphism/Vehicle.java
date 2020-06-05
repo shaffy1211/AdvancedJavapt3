@@ -2,14 +2,14 @@ package Polymorphism;
 
 public class Vehicle {
 	//Private instance Variables++++++++++++++++++++
-	private int numWheels = 4;
-	private int numDoors = 2;
-	private String  colour;
-	private String make;
-	private String model;
-	private String year;
-	private float speed;
-	private final int MAX_SPEED = 40;//final means fixed value
+	protected int numWheels = 4;
+	protected int numDoors = 2;
+	protected String  colour;
+	protected String make;
+	protected String model;
+	protected String year;
+	protected float speed;
+	protected final int MAX_SPEED = 40;//final means fixed value
 	
 	//Getters and setters++++++++++++++++++++
 	public int getNumDoors() {
